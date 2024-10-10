@@ -27,6 +27,11 @@
     ```bash
     username : admin@email.com
     password : password
+
+    username : operator@email.com
+    password : password
     ```
+![Database schema](https://raw.githubusercontent.com/prastyo/Anticode-Test-Result/refs/heads/main/master_desa.png)
+Database Master Desa [master_desa.sql](https://raw.githubusercontent.com/prastyo/Anticode-Test-Result/refs/heads/main/master_desa.sql)
 
 Built with 💙 by Budi Prastyo <budi@prastyo.com>
