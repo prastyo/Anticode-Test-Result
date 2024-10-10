@@ -1,0 +1,13 @@
+#
+#           __
+#   _(\    |@@|
+#  (__/\__ \--/ __          Trust me, I am not a robot
+#     \___|----|  |   __    Budi Prastyo <budi@prastyo.com>
+#         \ }{ /\ )_ / _\   created_at : 2024-10-10 17:36:07
+#         /\__/\ \__O (__
+#        (--/\--)    \__/
+#        _)(  )(_
+#       `---''---`
+
+User-agent: *
+Disallow:

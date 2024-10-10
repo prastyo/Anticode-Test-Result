@@ -1,0 +1,188 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+@charset "UTF-8";
+
+/* Jarak antara icon dengan title terlalu lebar */
+.main-sidebar .sidebar-menu li a i {
+    margin-right: 10px !important;
+}
+
+/* Loader saat ajax dipanggil */
+.loading-state {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #6777ef 94%, #0000) top/8px 8px no-repeat,
+        conic-gradient(#0000 30%, #6777ef);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+    animation: l13 1s infinite linear;
+}
+
+@keyframes l13 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+.modal-header {
+    cursor: move;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    padding-bottom: 15px;
+    margin-top: -8px;
+}
+
+.modal-title {
+    color: #6777ef !important;
+}
+
+/* garis antar tr */
+tbody tr {
+    border-bottom: 1px dashed #ced4da !important;
+}
+
+thead th {
+    background: #ffffff !important;
+}
+
+/* jarak antara table dengan halaman bawah */
+.table-responsive .row {
+    margin-bottom: 8px !important;
+}
+
+/* badge terlalu melengkung */
+.badge {
+    border-radius: 5px !important;
+    padding: 4px 10px !important;
+}
+
+/* modal title agar bisa ditengah */
+.close {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* background color pada autofill username password mozilla */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    filter: none;
+    box-shadow: 0 0 0 100px white inset;
+}
+
+.table_detail_left td:nth-child(1),
+.table_detail_left td:nth-child(2) {
+    width: 1%;
+    white-space: nowrap;
+}
+
+/* ganti cursor input read only*/
+input:read-only {
+    cursor: default;
+    background-color: #f0f0ff !important;
+    color: #696cff !important;
+}
+
+.datepicker-container {
+    /* date picker diatas modal*/
+    z-index: 1500 !important;
+}
+
+table.scrolldown tbody:not(:empty) {
+    display: block;
+    margin-top: 5px;
+}
+
+table.scrolldown tbody {
+
+    /* Set the height of table body */
+    max-height: 150px;
+
+    /* Set vertical scroll */
+    overflow-y: auto;
+
+    /* Hide the horizontal scroll */
+    overflow-x: hidden;
+}
+
+.btn:hover i,
+.nav-link:hover i {
+    animation: swing 0.7s;
+}
+
+.sidebar-menu .nav-link:hover i {
+    color: #6777ef;
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 15deg);
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -10deg);
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -5deg);
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+.badge.badge-cobalt {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.badge.badge-lavender {
+    background-color: #9c88ff;
+    color: #fff;
+}
+
+.badge.badge-shadow {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 5px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.bg-cobalt {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.bg-lavender {
+    background-color: #9c88ff;
+    color: #fff;
+}
+.card-header select{
+    height:25px !important;
+    padding: .1rem .3rem !important;
+    width: 65px;
+}

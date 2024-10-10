@@ -1,0 +1,26 @@
+Being a programmer isn't always smooth sailing.
+We spend hours solving complex problems,
+writing lines upon lines of code,
+only to find bugs hiding where we least expect them.
+
+Some days,
+everything clicks and the code runs flawlessly—
+those moments are pure joy.
+But other days,
+nothing seems to work,
+and the frustration builds with each failed test.
+
+Yet, amidst the struggles,
+there's a deep satisfaction in overcoming the obstacles,
+and sometimes,
+all it takes is another programmer's insight to light the way forward.
+
+                           ////
+                          (O O)
+        ------------oOO----(_)-------------------
+              Budi Prastyo <budi@prastyo.com>
+             created_at : 2024-10-10 17:36:07
+        ------------------------oOO--------------
+                        I__I__I
+                         II II
+                        ooO Ooo
