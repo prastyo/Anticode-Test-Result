@@ -36,6 +36,6 @@ Database Master Desa [master_desa.sql](https://raw.githubusercontent.com/prastyo
 
 Demo video [![Anticode](https://img.youtube.com/vi/qK8JVEwVSKU/0.jpg)](https://youtu.be/qK8JVEwVSKU)
 
-Demo live : coming soon
+Demo live : [https://anticode-test.prastyo.com](https://anticode-test.prastyo.com)
 
 Built with 💙 by Budi Prastyo <budi@prastyo.com>
